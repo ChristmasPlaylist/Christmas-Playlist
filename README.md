@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://res.cloudinary.com/di8qwjmch/image/upload/ctq575mkofevn96rcuip" alt="Christmas Playlist Logo" width="120"/>
+  <img src="https://github.com/user-attachments/assets/1a842ed5-678f-42aa-badf-8e85b796c43f" alt="Christmas Playlist Logo" width="120"/>
 
   # Christmas Playlist
 
