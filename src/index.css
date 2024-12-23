@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 4px; /* Thin scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1); /* Subtle track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3); /* Subtle thumb */
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5); /* Lighter on hover */
+}
+
+/* Firefox scrollbar styling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.1);
+}
+
+/* Ensure full height usage */
+html, body, #root {
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Maintain scroll functionality for content areas */
+.scroll-area {
+  overflow-y: auto;
+  height: 100%;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
